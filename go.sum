@@ -5,6 +5,8 @@ github.com/godror/godror v0.20.10 h1:OGUtCoSHVWZvKWL4F5nK2W7M7++bII+AMs/nRrz6cN0
 github.com/godror/godror v0.20.10/go.mod h1:+qk8O1HtyIQznfvpinfTzqqzpBpvvRP0voap6tvmzMc=
 github.com/google/go-cmp v0.4.0/go.mod h1:v8dTdLbMG2kIc/vJvl+f65V22dbkXbowE6jgT/gNBxE=
 github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/sijms/go-ora v0.0.0-20201205173311-40e04fc02df4 h1:0q0IODm4xjaKHFogwS5Y/w9abzSoEk0ARfXPoMzxZ0o=
+github.com/sijms/go-ora v0.0.0-20201205173311-40e04fc02df4/go.mod h1:5lB62c+JHe5Q+/5knBlCzxwL5P4WYP+B6+X7DoLQBfc=
 golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
 golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543 h1:E7g+9GITq07hpfrRu66IVDexMakfv52eLZ2CXBWiKr4=
 golang.org/x/xerrors v0.0.0-20191204190536-9bdfabe68543/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=

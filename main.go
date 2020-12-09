@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	_ "github.com/godror/godror"
+	_ "github.com/sijms/go-ora"
 
 	"log"
 )
@@ -20,8 +20,8 @@ var (
 
 func main() {
 	flag.Parse()
-	osqlInfo := fmt.Sprintf("%s/%s@%s:%d/%s", *username, *password, *oraclehost, *oracleport, *dbname)
-	db, err := sql.Open("godror", osqlInfo)
+	osqlInfo := fmt.Sprintf("oracle://%s:%s@%s:%d/%s", *username, *password, *oraclehost, *oracleport, *dbname)
+	db, err := sql.Open("oracle", osqlInfo)
 	if err != nil {
 		log.Fatalf("connect oracle db error: %s:", err.Error())
 	}
